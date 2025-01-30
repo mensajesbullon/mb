@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.centrar {
+    text-align: center;
+}
+
+#contenedor {
+    padding-top: 7%;
+    width: 35%;
+    text-align: center;
+}
+
+#logo>img {
+    height: 150px;
+    transition: 1s ease;
+}
+
+#logo>img:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.1);
+    transition: 1s ease;
+}
+
+#logo>h2 {
+    font-size: 32px;
+    font-family: "Fira Sans", serif;
+    letter-spacing: -0.5px;
+}
+
+#logo>h2>span {
+    color: #ffd000;
+}
+
+#titulo {
+    margin: 0px 0px 10px 0px;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 15px 32px;
+}
+
+#detalles {
+    background-color: #ffffff;
+    text-align: center;
+}
+
+#boton {
+    background-color: #ffffff;
+}
+
+#numero {
+    text-align: center;
+    font-size: 90%;
+}
+
+input {
+    background-color: #ffd000;
+    border: none;
+    color: #000000;
+    padding: 15px 32px;
+    text-align: center;
+    border-radius: 40px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 1px 1px;
+    cursor: pointer;
+}
+
+input:hover {
+    background-color: #000000;
+    color: white;
+    transition: 1s;
+}
+
+.btn {
+    background-color: #ffffff;
+    border: 0px;
+
+}
+
+@media only screen and (max-width: 1350px) {
+
+    #contenedor {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+
+    #contenedor {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    #contenedor {
+        width: 90%;
+    }
+
+    input {
+        padding: 12px 10px;
+        font-size: 15px;
+    }
+
+    #logo>img {
+        height: 120px;
+    }
+
+    #logo>h2 {
+        font-size: 26px;
+        font-family: "Fira Sans", serif;
+        letter-spacing: -0.5px;
+    }
+
+    #detalles {
+        font-size: 15px;
+    }
+
+}
